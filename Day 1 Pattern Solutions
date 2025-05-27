@@ -1,0 +1,334 @@
+
+    // 1
+    for(int i = 0; i < 5; i++) {
+        for(int j = 0; j < 5; j++) cout << "*";
+        cout << "\n";
+    }
+
+    // 2
+    for(int i = 1; i <= 5; i++) {
+        for(int j = 1; j <= i; j++) cout << "*";
+        cout << "\n";
+    }
+
+    // 3
+    for(int i = 5; i >= 1; i--) {
+        for(int j = 1; j <= i; j++) cout << "*";
+        cout << "\n";
+    }
+
+    // 4
+    for(int i = 1; i <= 5; i++) {
+        for(int j = 1; j <= i; j++) cout << j << " ";
+        cout << "\n";
+    }
+
+    // 5
+    for(int i = 1; i <= 5; i++) {
+        for(int j = 1; j <= i; j++) cout << "*";
+        cout << "\n";
+    }
+    for(int i = 4; i >= 1; i--) {
+        for(int j = 1; j <= i; j++) cout << "*";
+        cout << "\n";
+    }
+
+    // 6
+    for(int i = 1; i <= 5; i++) {
+        for(int j = 5; j > i; j--) cout << " ";
+        for(int k = 1; k <= i; k++) cout << "*";
+        cout << "\n";
+    }
+
+    // 7
+    for(int i = 5; i >= 1; i--) {
+        for(int j = 5; j > i; j--) cout << " ";
+        for(int k = 1; k <= i; k++) cout << "*";
+        cout << "\n";
+    }
+
+    // 8
+    for(int i = 1; i <= 5; i++) {
+        for(int j = 5; j > i; j--) cout << " ";
+        for(int k = 1; k <= 2 * i - 1; k++) cout << "*";
+        cout << "\n";
+    }
+
+    // 9
+    for(int i = 5; i >= 1; i--) {
+        for(int j = 5; j > i; j--) cout << " ";
+        for(int k = 1; k <= 2 * i - 1; k++) cout << "*";
+        cout << "\n";
+    }
+
+    // 10
+    for(int i = 1; i <= 5; i++) {
+        for(int j = 5; j > i; j--) cout << " ";
+        for(int k = 1; k <= i; k++) cout << "* ";
+        cout << "\n";
+    }
+
+    // 11
+    for(int i = 5; i >= 1; i--) {
+        for(int j = 5; j > i; j--) cout << " ";
+        for(int k = 1; k <= i; k++) cout << "* ";
+        cout << "\n";
+    }
+
+    // 12
+    for(int i = 5; i >= 1; i--) {
+        for(int j = 5; j > i; j--) cout << " ";
+        for(int k = 1; k <= i; k++) cout << "* ";
+        cout << "\n";
+    }
+    for(int i = 2; i <= 5; i++) {
+        for(int j = 5; j > i; j--) cout << " ";
+        for(int k = 1; k <= i; k++) cout << "* ";
+        cout << "\n";
+    }
+
+    // 13
+    for(int i = 1; i <= 5; i++) {
+        for(int j = 5; j > i; j--) cout << " ";
+        for(int j = 1; j <= i; j++) {
+            if(j == 1 || j == i || i == 5)
+                cout << "*";
+            else
+                cout << " ";
+        }
+        cout << "\n";
+    }
+
+
+
+    // 14
+    for(int i = 0; i < 5; i++) {
+        for(int j = 0; j < i; j++) cout << " ";
+        for(int j = 0; j < 5 - i; j++) {
+            if(j == 0 || j == 5 - i - 1 || i == 0)
+                cout << "*";
+            else
+                cout << " ";
+        }
+        cout << "\n";
+    }
+
+    // 15
+    for(int i = 1; i <= 5; i++) {
+        for(int j = 5; j > i; j--) cout << " ";
+        cout << "*";
+        if(i != 1) {
+            for(int j = 1; j <= 2 * (i - 1) - 1; j++) cout << " ";
+            cout << "*";
+        }
+        cout << "\n";
+    }
+    for(int i = 4; i >= 1; i--) {
+        for(int j = 5; j > i; j--) cout << " ";
+        cout << "*";
+        if(i != 1) {
+            for(int j = 1; j <= 2 * (i - 1) - 1; j++) cout << " ";
+            cout << "*";
+        }
+        cout << "\n";
+    }
+
+    // 16 (Pascal Triangle)
+    int n = 5;
+    for(int i = 0; i < n; i++) {
+        for(int j = 0; j < n - i - 1; j++) cout << "  ";
+        int num = 1;
+        for(int j = 0; j <= i; j++) {
+            cout << num << "   ";
+            num = num * (i - j) / (j + 1);
+        }
+        cout << "\n";
+    }
+
+    // 17
+    for(int i = 1; i <= 4; i++) {
+        for(int j = 4; j > i; j--) cout << " ";
+        for(int j = i; j >= 1; j--) cout << j;
+        for(int j = 2; j <= i; j++) cout << j;
+        cout << "\n";
+    }
+    for(int i = 3; i >= 1; i--) {
+        for(int j = 4; j > i; j--) cout << " ";
+        for(int j = i; j >= 1; j--) cout << j;
+        for(int j = 2; j <= i; j++) cout << j;
+        cout << "\n";
+    }
+
+    // 18
+    for(int i = 1; i <= 5; i++) {
+        for(int j = 6 - i; j >= 1; j--) cout << "*";
+        for(int j = 1; j <= 2 * (i - 1); j++) cout << " ";
+        for(int j = 6 - i; j >= 1; j--) cout << "*";
+        cout << "\n";
+    }
+    for(int i = 5; i >= 1; i--) {
+        for(int j = 6 - i; j >= 1; j--) cout << "*";
+        for(int j = 1; j <= 2 * (i - 1); j++) cout << " ";
+        for(int j = 6 - i; j >= 1; j--) cout << "*";
+        cout << "\n";
+    }
+
+    // 19
+    for(int i = 1; i <= 5; i++) {
+        for(int j = 1; j <= i; j++) cout << "*";
+        for(int j = 1; j <= 10 - 2 * i; j++) cout << " ";
+        for(int j = 1; j <= i; j++) cout << "*";
+        cout << "\n";
+    }
+    for(int i = 4; i >= 1; i--) {
+        for(int j = 1; j <= i; j++) cout << "*";
+        for(int j = 1; j <= 10 - 2 * i; j++) cout << " ";
+        for(int j = 1; j <= i; j++) cout << "*";
+        cout << "\n";
+    }
+
+    // 20
+    for(int i = 1; i <= 5; i++) {
+        for(int j = 1; j <= 4; j++) {
+            if(i == 1 || i == 5 || j == 1 || j == 4) cout << "*";
+            else cout << " ";
+        }
+        cout << "\n";
+    }
+
+    // 21
+    int cnt = 1;
+    for(int i = 1; i <= 5; i++) {
+        for(int j = 1; j <= i; j++) cout << cnt++ << " ";
+        cout << "\n";
+    }
+
+    // 22
+    for(int i = 1; i <= 5; i++) {
+        for(int j = 1; j <= i; j++) cout << (i + j) % 2 << " ";
+        cout << "\n";
+    }
+
+    // 23
+    for(int i = 0; i < 3; i++) {
+        for(int j = 2 - i; j > 0; j--) cout << "  ";
+        for(int j = 0; j <= i; j++) cout << "*   ";
+        cout << "\n";
+    }
+
+    // 24
+    for(int i = 1; i <= 5; i++) {
+        for(int j = 1; j <= i; j++) cout << "*";
+        for(int j = 1; j <= 2 * (5 - i); j++) cout << " ";
+        for(int j = 1; j <= i; j++) cout << "*";
+        cout << "\n";
+    }
+    for(int i = 4; i >= 1; i--) {
+        for(int j = 1; j <= i; j++) cout << "*";
+        for(int j = 1; j <= 2 * (5 - i); j++) cout << " ";
+        for(int j = 1; j <= i; j++) cout << "*";
+        cout << "\n";
+    }
+
+    // 25
+    for(int i = 1; i <= 5; i++) {
+        for(int j = 5 - i; j > 0; j--) cout << " ";
+        for(int j = 1; j <= i; j++) {
+            if(i == 1 || i == 5 || j == 1 || j == i) cout << "*";
+            else cout << " ";
+        }
+        cout << "\n";
+    }
+
+    // 26
+    for(int i = 1; i <= 6; i++) {
+        for(int j = 6; j >= i; j--) cout << i << " ";
+        cout << "\n";
+    }
+
+    // 27
+    int val = 1;
+    for(int i = 1; i <= 4; i++) {
+        for(int s = 1; s < i; s++) cout << "  ";
+        for(int j = 1; j <= 5 - i + 1; j++) cout << val++ << " ";
+        for(int j = 1; j <= 5 - i; j++) cout << val++ << " ";
+        cout << "\n";
+    }
+
+    // 28
+    for(int i = 1; i <= 5; i++) {
+        for(int j = 5; j > i; j--) cout << " ";
+        for(int k = 1; k <= i; k++) cout << "* ";
+        cout << "\n";
+    }
+    for(int i = 4; i >= 1; i--) {
+        for(int j = 5; j > i; j--) cout << " ";
+        for(int k = 1; k <= i; k++) cout << "* ";
+        cout << "\n";
+    }
+
+    // 29 (Same as 19)
+    for(int i = 1; i <= 5; i++) {
+        for(int j = 1; j <= i; j++) cout << "*";
+        for(int j = 1; j <= 10 - 2 * i; j++) cout << " ";
+        for(int j = 1; j <= i; j++) cout << "*";
+        cout << "\n";
+    }
+    for(int i = 4; i >= 1; i--) {
+        for(int j = 1; j <= i; j++) cout << "*";
+        for(int j = 1; j <= 10 - 2 * i; j++) cout << " ";
+        for(int j = 1; j <= i; j++) cout << "*";
+        cout << "\n";
+    }
+
+    // 30
+    for(int i = 1; i <= 5; i++) {
+        for(int j = 5; j > i; j--) cout << " ";
+        for(int j = i; j >= 1; j--) cout << j << " ";
+        for(int j = 2; j <= i; j++) cout << j << " ";
+        cout << "\n";
+    }
+
+    // 31
+    for(int i = 1; i <= 7; i++) {
+        for(int j = 1; j <= 7; j++) {
+            int min = i < j ? i : j;
+            if(8 - i < min) min = 8 - i;
+            if(8 - j < min) min = 8 - j;
+            cout << 5 - min + 1 << " ";
+        }
+        cout << "\n";
+    }
+
+    // 32
+    for(char i = 'E'; i >= 'A'; i--) {
+        for(char j = i; j <= 'E'; j++) cout << j << " ";
+        cout << "\n";
+    }
+
+    // 33
+    char ch = 'a';
+    for(int i = 1; i <= 5; i++) {
+        for(int j = 1; j <= i; j++) {
+            if((i + j) % 2 == 0) cout << (char)toupper(ch);
+            else cout << ch;
+            ch++;
+            cout << " ";
+        }
+        cout << "\n";
+    }
+
+    // 34
+    for(char i = 'E'; i >= 'A'; i--) {
+        for(char j = i; j >= 'A'; j--) cout << j << " ";
+        cout << "\n";
+    }
+
+    // 35
+    for(int i = 1; i <= 4; i++) {
+        for(int j = 1; j <= i; j++) cout << j;
+        for(int j = 1; j <= 2 * (4 - i); j++) cout << " ";
+        for(int j = i; j >= 1; j--) cout << j;
+        cout << "\n";
+    }
+
