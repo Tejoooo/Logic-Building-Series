@@ -1,0 +1,10 @@
+Compute the factorial of a number.
+Generate the Fibonacci sequence up to n.
+Solve the Tower of Hanoi for n disks.
+Print all subsets of a given array.
+Find the nth term of a geometric progression using recursion.
+Solve the N-Queens problem for a chessboard of size n x n.
+Generate all valid combinations of n pairs of parentheses.
+Perform binary search recursively.
+Find the greatest common divisor (GCD) of two numbers using recursion.
+Count the number of ways to climb n stairs with steps of 1 or 2.
