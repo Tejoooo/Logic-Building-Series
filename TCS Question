@@ -1,0 +1,33 @@
+def is_prime(n):
+    if n <= 1:
+        return False
+    if n <= 3:
+        return True
+    if n % 2 == 0 or n % 3 == 0:
+        return False
+    i = 5
+    while i * i <= n:
+        if n % i == 0 or n % (i + 2) == 0:
+            return False
+        i += 6
+    return True
+
+def nth_prime(n):
+    count = 0
+    number = 1
+    while count < n:
+        number += 1
+        if is_prime(number):
+            count += 1
+    return number
+
+def compute_C(X, Y):
+    A = nth_prime(X)
+    B = nth_prime(Y)
+    C = (A * B) - 1
+    return C
+
+# Example
+X = 5
+Y = 7
+print(compute_C(X, Y)) 
