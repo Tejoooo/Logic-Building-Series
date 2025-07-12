@@ -1,0 +1,71 @@
+Operating Systems (OS)
+
+1. How does a process differ from a thread? Which is more efficient?
+2. What happens when you type a command in the terminal? (Explain system call flow)
+3. Explain deadlock. How do operating systems prevent or detect it?
+4. What is a semaphore? Implement a producer-consumer problem using it.
+5. Describe the scheduling policies in Linux. Which one is used by default?
+6. What is the difference between context switching and interrupt handling?
+7. Explain virtual memory. How does paging work?
+8. What is a page fault? How does the OS handle it?
+9. Describe the difference between user mode and kernel mode.
+10. How is inter-process communication (IPC) achieved?
+11. What is the role of an OS in memory management?
+12. Can a process access memory allocated to another process? Why/why not?
+13. What is a zombie process and how does it occur?
+14. Compare multithreading vs multiprocessing in OS-level implementation.
+15. How is a system call different from a library call?
+
+Computer Networks (CN) – Interview Questions
+
+1. Explain the TCP 3-way handshake. What if the last ACK is lost?
+2. How does DNS resolution work internally when you type www.google.com?
+3. Compare TCP and UDP with real-life examples.
+4. What is ARP? How does it resolve IP to MAC?
+5. Explain the difference between a switch and a router.
+6. What happens when you ping an IP address?
+7. How does congestion control work in TCP?
+8. How does HTTPS work? What is the role of SSL/TLS?
+9. What are the different layers of the OSI model? Where does HTTP lie?
+10. What is NAT? Why is it needed?
+11. What is the role of port numbers in networking?
+12. What is packet switching? How is it different from circuit switching?
+13. How are lost packets handled in TCP?
+14. What are HTTP methods? Explain GET vs POST.
+15. What’s the difference between IP routing and MAC address forwarding?
+
+Database Management Systems (DBMS) – Interview Questions
+
+1. What are ACID properties? Why are they important?
+2. Explain normalization. What are the drawbacks of over-normalization?
+3. What is a deadlock in DBMS? How is it different from deadlock in OS?
+4. Write a SQL query to find the second-highest salary in a table.
+5. What is the difference between WHERE and HAVING clauses?
+6. How does indexing work? When should you avoid indexes?
+7. What is a transaction? What happens if a transaction fails mid-way?
+8. What are triggers? When would you use them?
+9. Compare INNER JOIN, LEFT JOIN, RIGHT JOIN, and FULL OUTER JOIN.
+10. What are views? Can you update a view?
+11. How does concurrency control work in databases?
+12. What is the difference between DELETE and TRUNCATE?
+13. How is data consistency ensured in distributed DBs?
+14. Explain B+ Tree and its use in DBMS indexing.
+15. What is the difference between OLTP and OLAP systems?
+
+Object-Oriented Programming (OOPs) – Interview Questions
+
+1. Explain the difference between abstraction and encapsulation.
+2. What are the 4 pillars of OOPs? Explain with real-world examples.
+3. What is the difference between method overloading and overriding?
+4. How is inheritance implemented in Java/C++? What are its types?
+5. Can we override a private method? Why or why not?
+6. What is the difference between interface and abstract class?
+7. What is the Liskov Substitution Principle? (From SOLID)
+8. Explain the use of `this` and `super` keywords.
+9. What is object slicing? When does it happen?
+10. How does polymorphism resolve function calls at runtime?
+11. Can a constructor be private? When would you do that?
+12. What is multiple inheritance? How does C++ handle ambiguity (diamond problem)?
+13. What are access specifiers? How do they affect inheritance?
+14. What is the difference between shallow copy and deep copy?
+15. How does virtual function work in C++? What is vtable?
