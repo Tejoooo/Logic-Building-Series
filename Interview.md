@@ -1,0 +1,136 @@
+# Interview Questions
+
+## Operating Systems (25 Questions)
+- What is an operating system? Explain its main functions.
+- Difference between process and thread.
+- What is a kernel? Types of kernels.
+- Explain system calls with examples.
+- What is context switching?
+- Explain process states in detail.
+- What is a deadlock? How can it be prevented?
+- Difference between preemptive and non-preemptive scheduling.
+- Explain different CPU scheduling algorithms.
+- What is a semaphore? How does it work?
+- Difference between mutex and semaphore.
+- Explain paging and segmentation.
+- What is virtual memory? How is it implemented?
+- Explain thrashing in OS.
+- What is demand paging?
+- Explain the concept of page replacement algorithms.
+- What is a file system? Types of file systems.
+- Explain disk scheduling algorithms.
+- What is a zombie process?
+- Difference between multitasking and multiprocessing.
+- Explain inter-process communication (IPC) methods.
+- What is a race condition? How to avoid it?
+- Explain the concept of time-sharing systems.
+- What is a real-time operating system?
+- Explain the difference between monolithic and microkernel architecture.
+
+## Computer Networks (25 Questions)
+- What is a computer network? Types of networks.
+- Explain OSI model and its layers.
+- Difference between TCP and UDP.
+- What is IP addressing? Explain IPv4 vs IPv6.
+- Explain subnetting with an example.
+- What is DNS and how does it work?
+- Explain ARP and RARP.
+- What is DHCP and its role?
+- Explain the concept of MAC address.
+- Difference between hub, switch, and router.
+- What is NAT and why is it used?
+- Explain the concept of port numbers.
+- What is HTTP vs HTTPS?
+- Explain SSL/TLS protocols.
+- What is congestion control in TCP?
+- Explain the concept of flow control.
+- What is a firewall? Types of firewalls.
+- Explain VPN and its working.
+- What is packet switching vs circuit switching?
+- Explain the concept of bandwidth and latency.
+- What is QoS in networking?
+- Explain the difference between unicast, multicast, and broadcast.
+- What is ICMP and its purpose?
+- Explain the concept of load balancing.
+- What is CDN and why is it important?
+
+## DBMS (25 Questions)
+- What is DBMS? Difference between DBMS and RDBMS.
+- Explain ACID properties.
+- What is normalization? Explain different normal forms.
+- Difference between primary key, foreign key, and unique key.
+- What is an index in a database? Types of indexes.
+- Explain SQL vs NoSQL databases.
+- What is a transaction? Explain its states.
+- Difference between DELETE, TRUNCATE, and DROP.
+- Explain JOINs in SQL with examples.
+- What is a view in SQL?
+- Explain stored procedures and triggers.
+- What is a cursor in SQL?
+- Explain the concept of referential integrity.
+- What is a composite key?
+- Explain the difference between clustered and non-clustered index.
+- What is deadlock in DBMS? How to prevent it?
+- Explain the concept of two-phase commit.
+- What is a schema in a database?
+- Explain the concept of data redundancy.
+- What is a foreign key constraint?
+- Explain the difference between OLTP and OLAP.
+- What is a materialized view?
+- Explain the concept of database sharding.
+- What is a surrogate key?
+- Explain CAP theorem in distributed databases.
+
+## OOP (25 Questions)
+- What is OOP? Explain its main principles.
+- Difference between class and object.
+- Explain encapsulation with an example.
+- What is inheritance? Types of inheritance.
+- Explain polymorphism with examples.
+- What is abstraction? How is it implemented?
+- Difference between interface and abstract class.
+- Explain method overloading vs overriding.
+- What is constructor and destructor?
+- Explain the concept of access modifiers.
+- What is dynamic binding vs static binding?
+- Explain the concept of virtual functions.
+- What is multiple inheritance? How is it handled?
+- Explain the concept of composition vs aggregation.
+- What is the difference between shallow copy and deep copy?
+- Explain the concept of friend function.
+- What is operator overloading?
+- Explain the concept of exception handling.
+- What is the difference between final, finally, and finalize?
+- Explain the concept of design patterns in OOP.
+- What is SOLID principle?
+- Explain the concept of dependency injection.
+- What is the difference between cohesion and coupling?
+- Explain the concept of garbage collection.
+- What is the difference between procedural and object-oriented programming?
+
+## Most Asked Questions (25 Questions)
+- What is an operating system? Explain its main functions.
+- Difference between process and thread.
+- What is a deadlock? How can it be prevented?
+- Explain OSI model and its layers.
+- Difference between TCP and UDP.
+- What is DNS and how does it work?
+- What is DBMS? Difference between DBMS and RDBMS.
+- Explain ACID properties.
+- What is normalization? Explain different normal forms.
+- Difference between primary key, foreign key, and unique key.
+- Explain JOINs in SQL with examples.
+- What is OOP? Explain its main principles.
+- Difference between class and object.
+- Explain encapsulation with an example.
+- What is inheritance? Types of inheritance.
+- Explain polymorphism with examples.
+- Difference between interface and abstract class.
+- Explain method overloading vs overriding.
+- What is constructor and destructor?
+- Explain the concept of access modifiers.
+- What is dynamic binding vs static binding?
+- Explain the concept of virtual functions.
+- Explain the concept of design patterns in OOP.
+- What is SOLID principle?
+- Explain the concept of garbage collection.
